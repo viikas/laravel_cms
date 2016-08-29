@@ -1,0 +1,371 @@
+/* Reset */
+
+
+html, body { margin:0; padding:0; border:0; background:transparent; font-size:10px; }
+
+div, span, article, aside, footer, hesder, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li,
+	margin:0;
+	padding:0;
+	border:0;
+	vertical-align:baseline;
+	background:transparent;
+    }
+
+img      { margin:0; padding:0; border:0; }
+
+
+
+
+input, select, textarea, form, fieldset  {
+	margin:0; padding:0; border:0;
+    }
+	
+article, aside, dialog, footer, header, hgroup, nav, section   {
+	display:block; }
+	
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike        {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	line-height:100%;
+	text-decoration:none;
+	text-align:left;
+	color:#000;
+    }
+	
+ol, ul { list-style:none; }
+
+
+
+/*  Global  */
+
+html{             }
+body{ background:#FF9E3E }
+
+
+
+/*  Heading   */
+
+h1, h2, h3, h4, h5, h6 {  font-weight: bold; color: #000;  }
+
+h1 {
+	font-size:24px;
+	text-align: center;
+}
+h2 {
+	font-size:20px;
+	text-align: center;
+}
+h3 {
+	font-size:16px;
+	text-align: center;
+}
+h4 {font-size:14px; }
+h5 {font-size:14px; }
+h6 {font-size:14px:}
+
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin:0; }
+
+
+
+/* Text Elements */
+
+p            {
+	color:#000;
+	font-size:14px;
+	line-height:150%;
+	text-align: center;
+}
+p .left      { margin:1.5em 1.5em 1.5 em 0; padding:0; }
+p .right     { margin:1.5em 0 1.5em 1.5em:; padding:0: }
+
+a            {     }
+a:link       { color:#00f; }
+a:visited    { color:#0f0; }
+a: active    { color:#000; }
+a:focus      { color:#666; }
+a:hover      { color:#f00; }
+
+blockquote   { color:#000; font-size:12px; }
+
+strong       { font-weight: bold; }
+em           { font-style: italic: }
+
+
+/* Images */
+
+.image-frame    { padding:10px; border: 1px #ccc solid; margin:10px }
+
+/*  List  */
+
+ul          {       }
+ol          { list-style-type:decimal; }
+
+ul li       { color:#000; font-size:12px; }
+ol li       { color:#000; font-size:12px; }
+
+dl                   {           }
+dt                   {           }
+dd                   {           }
+
+
+
+
+
+/* containers */
+
+#outter          { width:960px;margin:0 auto; background-color:#FFF;}
+#wrapper                     { width:900px;margin:0 auto; }
+#logo                        { margin:20px 0; float:left;  }
+
+#social-media-icons          { float:right;   }
+#social-media-icons ul li    { display:inline; }
+#social-media-icons ul       { margin-top:40px; }
+
+#topnav                      { clear:both;   }
+#topnav ul                   { border-top: 1px #000 solid; border-bottom: 1px #000 solid; 
+                              margin:20px 0;; padding:10px 0;}
+
+#topnav a:link                       { color:#000; }
+#topnav a:visited                    { color:#000; }
+#topnav a: active                    { color:#000; }
+#topnav a:focus                      { color:#666; }
+#topnav a:hover                      { color:#FF8000; }
+                             
+#topnav ul li                { display:inline; }
+#topnav ul li a              { padding:0 15px; }
+
+#banner                            { margin-bottom:30px; }
+
+#content                           {
+	width:650px;
+	float:left;
+	text-align: center;
+}
+#content-fullwidth                 { width:100%; }
+
+#rightside                         {width:200px;float:right; text-align:center;}
+#rightside-low                     {width:200px;float:right; text-align:center; margin-top:100px;}
+#rightside-about                    {width:200px;float:right; text-align:center; margin-top:40px;}
+
+
+
+#footer                            { clear:both; margin:20px 0;; border-top:1px #ccc solid;
+                                    text-align:center; padding-bottom:20px; }
+
+
+
+#box1   {    }
+#box2   {    }
+#box3   {    }
+#box4   {    }
+#box5   {    }
+#box6   {    }
+
+
+/* Layout Extra */
+
+
+
+
+/* Navigation Extra */
+
+
+
+
+/* Miscellaneous*/
+
+.sliderText    {
+	font-weight:bold;
+	color:#EC7600;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	margin-top:0;
+
+	text-align:center
+}
+
+.date          {
+	font-weight:bold;
+	color:#EC7600;
+	margin-bottom:2px;
+	text-align: center;
+}
+
+copyright-text { font-size:10px; font-style: italic; color:#333; }
+.footer-text   { font-size:12 px; font-style:normal; color:#000; text-align:center; }
+
+.title         { font-size:18px; font-weight:bold; color:#333; }
+.subtitle      { font-size:14px; font-style:italic; color:#333; }
+
+.artist        { font-size:16px; font-weight:bold; color:#333; }
+.author        { font-size:14px; font-weight:bold; color:#555; }
+.editor        { font-size:14px; font-style:italic; color:#555; }
+
+.pub-date      { font-size:10px; font-style:italic; color:#555; }
+.article-date  { font-size:10px; font-style:italic; color:#555; }
+.location      { font-size:10px; font-style:italic; color:#555; }
+
+.float-right   { float:right; }
+.float-left    { float:left; }
+.clear         { clear:both; }
+
+.hide          { display:none; }
+.block         { display:block; }
+.inline        { display:inline; }
+       
+
+
+/* sucess, info, notice and error/alter boxes - from blueprint css framework */
+
+.error, .alert, .notce, .sucess, .info {
+	/*padding: 0.8em; margin-bottem: 1em; border: 2px solid #ddd;*/ }
+
+.error .alert  { backgroud: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+
+.notice        { backgroud: #fff6bf; color: #514721; border-color: #ffd324; }
+
+.error .alert  { backgroud: #e6efc2; color: #264409; border-color: #c6d880; }
+
+.error .alert  { backgroud: #d5edf8; color: #205791; border-color: #92cae4; }
+
+
+.error a     { color: #8a1f11; }
+.alert a     { color: #8a1f11; }
+
+
+.notice a    { color: #514721; }
+.success a   { color: #264409; }
+.info a      { color: #205791; }
+
+
+
+/* slider */
+
+
+#s3slider {
+    width: 900px; /* important to be same as image width */
+    height: 300px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+	margin-bottom: 20px;
+	alignment-adjust: central;
+}
+ 
+#s3sliderContent {
+    width: 1000px; /* important to be same as image width or wider */
+    position: relative; /* important */
+    top: 0; /* important */
+    margin: 0 ;
+	padding: 0;
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+ 
+.s3sliderImage span {
+	position: absolute; /* important */
+	right: 0;
+	bottom:0;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding: 10px 13px;
+	width: 250px;
+	background-color: #000;
+	filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+	-moz-opacity: 0.7; /* here you can set the opacity of box with text */
+	-khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+	opacity: 0.7; /* here you can set the opacity of box with text */
+	color: #fff;
+	display: none; /* important */
+	top: 0;
+	text-align: center;
+	font-size: 12px;
+}
+ 
+.clear {
+    clear: both;}
+	
+	/* Table */
+
+
+#mytable{
+	background-color:#EBF8FF;
+	border-collapse: collapse;
+	border: 1px solid #368cbb;
+	color:#252525;
+	margin: 10px 10px 10px 50px;
+    margin: auto;
+	padding: 2px;}
+	
+	
+#mytable td {
+	padding: 2px 5px 2px 5px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+}
+
+#mytable .tdheader {
+//background: url(../../images/tdbg_gold.gif);
+background: #368cbb;
+color: #fff;
+font: 14px arial, sans-serif;
+font-weight: bold;
+}
+.trow1a {
+background: #75787b;
+text-align: left;
+color: #fff;
+}
+.trow1 {
+background: #75787b;
+text-align: center;
+color: #fff;
+}
+.trow2a{
+background: #eeebe7;
+text-align: left;
+}
+.trow2 {
+background: #eeebe7;
+text-align: center;
+}
+
+#main .myset {
+	font: normal 12px/18px Arial, Verdana, Sans-Serif;
+	color: #606060;
+}
+
+/* ********** */
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxx        Quote         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 */
+
+
+
+
+
+#wrapper #content #main .featured-post .post-entry div form #mytable tr td input {border:1px solid #B1B1B1;}
+#wrapper #content #main .featured-post .post-entry div form #mytable tr td textarea {border:1px solid #B1B1B1;}
+#wrapper #content #main .featured-post .post-entry div form #mytable tr td input {border:1px solid #B1B1B1; padding:5px; }
+#wrapper #content #main .featured-post .post-entry div form #mytable tr td select {border:1px solid #B1B1B1; padding:5px; }
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx         Booking              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+#wrapper #content-fullwidth #formWrap div form #mytable tr td input { border:1px solid #B1B1B1; }
+#wrapper #content-fullwidth #formWrap div form #mytable tr td textarea {border:1px solid #B1B1B1;}
+#wrapper #content-fullwidth #formWrap div form #mytable tr td select {border:1px solid #B1B1B1;}
+#wrapper #content-fullwidth #formWrap div form #mytable tr td {font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#content-fullwidth #formWrap #main div form #mytable tr td div input { border:solid 1px #164D6D; margin-top:20px; margin-bottom:20px;}

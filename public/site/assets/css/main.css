@@ -1,0 +1,166 @@
+#outter #wrapper #rightside h2 {
+    text-align: center;
+}
+#outter #wrapper #rightside h2 {
+    text-align: left;
+}
+#outter #wrapper #rightside h2 {
+    text-align: center;
+}
+#outter #wrapper #rightside h2 {
+    text-align: center;
+}
+.offers {
+    text-align: left;
+}
+.rightside-p {
+    text-align: left;
+}
+
+div.form-group{margin:5px 0 10px 0;width:450px;padding:5px;}
+div.form-group input.text{padding:5px;border-radius: 5px;width:250px;height:15px;}
+div.form-group input.text-mild{padding:5px;border-radius: 5px;width:190px;height:15px;}
+div.form-group input.text-cost{padding:5px;border-radius: 5px;width:60px;height:15px;}
+div.form-group input.text-cost-total{color:red;font-weight: bold;}
+div.form-group input:focus{outline:1px solid #ddd;}
+div.hover-data{border:1px solid #ddd;background-color: #eee;float:right;width:160px;margin:-50px 40px 0 0;padding:12px;}
+div.focus-data{background-color: #fff7c0;}
+
+div.form-group select.text{padding:5px;border-radius: 5px;height:27px;border:1px solid #ccc;}
+div#div-info{padding:10px;}
+div#div-info .mark{float:left;margin-right: 10px;}
+div#div-info .msg{float:right;width:665px;}
+
+div.div-limousine-holder
+{
+    float: left;
+    width: 225px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #bbb;
+    background-color: #eee;
+}
+div.div-limousine-holder:hover{background-color: #dde;}
+div.div-limousine-name
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+}
+div.div-limousine-capacity,div.div-limousine-luggage
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+}
+
+div#content-simple{width:97%;float:left;text-align: center;}
+
+.info-error{border:1px solid red;color:red;}
+.info-success{border:1px solid #ddd;color:#222;}
+
+.alert #head{text-align: center;margin-bottom: 15px;font-size: 20px;font-weight: bold;}
+.alert #info{font-size: 13px;margin-top: 15px;}
+.alert-success
+{
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+
+    text-align: left;
+    padding:15px;
+    width:100%;
+    margin:20px 0;
+}
+.alert-error
+{
+    color:red;background-color:#f2dede;border-color:#eed3d7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+
+    text-align: left;
+    padding:15px;
+    width:100%;
+    margin:20px 0;
+}
+
+/**step like button**/
+a.step-like
+{
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a.step-like-cancel
+{
+    background: #ddd;
+    color: #000;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline:0;
+}
+
+table.payment-summary td.pay-head{text-align: right;padding-right: 10px;font-weight: bold;}
+table.payment-summary td.pay-price{text-align: right;}
+
+/********* easy modal pop up***********/
+.easymodel
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    background: #FFF;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.easymodel table{margin-bottom: 15px;width:590px;}
+.easymodel .div-action-buttons{padding:10px 20px;margin-bottom: 15px;}
+.easymodel .div-action-buttons .proceed{text-align: left;font-weight: bold;font-size: 13px;color:#159ffd;display:none;}
+.easymodel table>tbody>tr>td{border-top:1px solid #ddd;}
+.easymodel table>tbody>tr>th{padding-top: 20px;}
+.easymodel .bold{font-weight: bold;padding-right: 10px;line-height: 30px;}
+.easymodel .bold2{font-weight: bold;padding-left: 30px;padding-right: 10px;line-height: 30px;}
+.easymodel .row{border-top:1px solid #ddd;}
+.easymodel .header
+{
+    background: #DDD;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 18px 18px 14px;
+}
+.easymodel .header h3
+{
+    argin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.easymodel .content
+{
+    padding: 10px 0;
+}
+
+.easymodel .content .container
+{
+    padding: 10px 20px;
+    height:300px;
+    width:600px;
+    overflow: scroll;
+}
+.easymodel .info{padding:10px 20px;font-weight: bold;color:red;}

@@ -1,0 +1,62 @@
+body { padding-top: 60px; padding-bottom: 40px; }
+table .btn { margin-right: 4px; }
+.email{font-size:12px;}
+.float-left{float:left;}
+.clear{clear:both;}
+.width-60{width:60px;}
+.width-70{width:70px;}
+.width-80{width:80px;}
+.width-90{width:90px;}
+.width-100{width:100px;}
+.width-110{width:110px;}
+.width-120{width:120px;}
+.width-130{width:130px;}
+.width-140{width:140px;}
+.width-150{width:150px;}
+.width-160{width:160px;}
+.width-170{width:170px;}
+.width-180{width:180px;}
+
+.margin-left-20{margin-left: 20px;}
+.margin-left-40{margin-left: 40px;}
+.margin-left-60{margin-left: 60px;}
+.margin-right-20{margin-right: 20px;}
+.margin-right-40{margin-right: 40px;}
+.margin-right-60{margin-right: 60px;}
+.border-right-10{border-right:1px solid #eee;padding-right:10px;}
+.margin-top-4{margin-top: 4px;}
+table.flat-table{padding:10px;}
+table.flat-table tr{border-bottom: 1px solid #ccc;}
+table.flat-table tr td{padding:5px 15px 0 0;}
+table.flat-table tr td.label{padding:4px;}
+div.self-box{margin:20px 0;border-top:1px solid #eee;}
+div.self-box-full{margin:10px 0;border:1px solid #eee;}
+div.self-box-title{padding:5px;background-color:#eee;color:#005580;font-size:17px;}
+div.self-box-inner{padding:5px;}
+span.label-bold{font-weight: bold;margin-right: 10px;}
+td.bold{font-weight: bold;}
+td.italic{font-style: italic;}
+ul.pagination li{display:inline;padding:8px;border:1px solid #ddd;}
+ul.pagination li.active{color:#fff;background-color:#005580;}
+span.cancelled{color:red;font-weight: bold;}
+span.booked{color:blue;font-weight: bold;}
+span.confirmed{color:green;font-weight: bold;}
+
+div#working-wait{text-align: right;font-weight: bold;font-size: 13px;color: #159ffd;}
+
+/*********** cart products *****************/
+.product-available{width:16px;height:16px;display:block;}
+.product-available-1{background-color:#51a351;}
+.product-available-0{background-color:#D44A44;}
+.product-old-price{display: block;color:red;text-decoration: line-through;}
+.product-new-price{display: block;color:green;}
+.product-category-name{color:#009990;display: block;}
+.product-category-name-teaser{background-color:#009990;}
+
+.display-title{font-weight: bold;}
+.border-bottom-5px{border-bottom: 1px solid #ddd;padding-bottom: 5px;margin-bottom: 5px;}
+
+.display-inline{display:inline;}
+
+.nav-cart{list-style: none;border:1px solid #ddd;padding:6px;}
+.nav-cart li{display: inline-block;margin-right: 10px;}
